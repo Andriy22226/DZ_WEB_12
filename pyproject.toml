@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "dz-12-web"
+version = "0.1.0"
+description = ""
+authors = ["Andriy <127453425+Andriy22226@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.103.2"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+sqlalchemy = "^2.0.22"
+asyncpg = "^0.28.0"
+pydantic-extra-types = "^2.1.0"
+phonenumbers = "^8.13.22"
+datetime = "^5.2"
+asyncio = "^3.4.3"
+passlib = "^1.7.4"
+python-multipart = "^0.0.6"
+pydantic = "^2.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api" 
